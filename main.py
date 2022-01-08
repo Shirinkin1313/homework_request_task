@@ -1,3 +1,5 @@
+
+
 import requests
 
 
@@ -29,6 +31,7 @@ class YaUploader:
 
 
 file_list = ['text_1', 'text_2', 'text_for_yandex']
+
 
 if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
