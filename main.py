@@ -36,6 +36,6 @@ file_list = ['text_1', 'text_2', 'text_for_yandex']
 if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     path_to_file = r"C:\Users\shiri\PycharmProjects\requests_task_2\text_1"
-    token = "AQAAAAAdY_7xAADLW9xEtgeYuEedowT0BNUTzfs"
+    token = ""
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
